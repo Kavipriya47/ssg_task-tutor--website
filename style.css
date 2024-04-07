@@ -1,0 +1,156 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+
+.main {
+    font-display: left;
+    position: relative;
+    overflow: hidden;
+    background: linear-gradient(to right);
+}
+
+nav {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 2rem 1rem;
+    width: 100%;
+    max-width: var(--max-width);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;  
+}
+th{
+    padding-left: 30px;
+}
+.logo img {
+    width: 150px;
+}
+
+.nav-links {
+    flex: 1;
+    text-align: right;
+}
+
+.nav-links ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.nav-links ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+#button1 {
+    background-color: rgb(50, 14, 192);
+    border: none;
+    padding: 10px 10px;
+    border-radius: 20px;
+}
+
+.dec {
+    color: black;
+    background-color: yellow;
+    padding: 10px 10px 10px 10px;
+    text-align: center;
+}
+#para2 {
+    margin-top: 20px;
+    padding-top: 30px;
+}
+nav ul li a:hover {
+    color: #c50529;
+  }
+.nav-links ul li :active {
+    color: #c50529; 
+}
+nav ul li a::after {
+    content: "";
+    width: 0;
+    height: 2px;
+    display: block;
+    transition: 0.6s;
+    background-color: #c50529;
+  }
+  nav ul li a:hover::after {
+    width: 100%;
+  }
+.me
+{   color: white;
+    background-color: rgb(29, 78, 174);
+    margin-top: 30px;
+    padding:10px 50px;
+    text-align: center;
+}
+.me table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.me td {
+    padding: 10px;
+}
+
+.me .vertical-line {
+    border-right: 1px solid white;
+}
+.en{
+    text-align: center;
+    text-align: justify;
+}
+.container {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.box {
+    width: calc(25% - 10px); 
+    padding: 10px;
+    text-align: center;
+    margin: 0; 
+}
+
+.inner-box {
+    width: 200px;
+    height: 160px;
+    background-color: #fcf9f9;
+    margin: 5px auto;
+}
+.container {
+    display: flex;
+    justify-content:space-between;
+    align-items:top;
+    padding: 20px;
+  }
+  
+  img {
+    max-width: 50%;
+    height: auto;
+    float: right;
+  }
+  
+  .content {
+    max-width: 45%;
+  }
+  .contents{
+    padding: 45px 98px;
+  }
+  #main-container {
+    display: flex;
+    align-items:top;
+    padding: 20px;
+}
+#content {
+    flex: 1; 
+}
+#main-image {
+    max-width: 50%;
+    height: auto;
+
+}
